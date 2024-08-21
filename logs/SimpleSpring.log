@@ -1,0 +1,46 @@
+[19:30:04.313] [DEBUG] CustomerServiceImpl - ===========BEGIN TRANSACTION===========
+[19:30:04.326] [INFO ] CustomerServiceImpl - SERVICE:   START - create customer
+[19:30:04.326] [INFO ] CustomerDaoImpl - START: create customer
+[19:30:04.326] [INFO ] CustomerDaoImpl - END: create customer
+[19:30:04.327] [INFO ] CustomerServiceImpl - SERVICE:   END - create customer
+[19:30:04.329] [DEBUG] CustomerServiceImpl - ===========COMMIT TRANSACTION===========
+[20:08:23.788] [DEBUG] ProxyHandler - ===============BEGIN TRANSACTION===============
+[20:08:23.792] [DEBUG] CustomerServiceImpl - ===========BEGIN TRANSACTION===========
+[20:08:23.793] [INFO ] CustomerServiceImpl - SERVICE:   START - create customer
+[20:08:23.793] [INFO ] CustomerDaoImpl - START: create customer
+[20:08:23.793] [INFO ] CustomerDaoImpl - END: create customer
+[20:08:23.793] [INFO ] CustomerServiceImpl - SERVICE:   END - create customer
+[20:08:23.793] [DEBUG] CustomerServiceImpl - ===========COMMIT TRANSACTION===========
+[20:08:23.793] [DEBUG] ProxyHandler - ===============COMMIT TRANSACTION===============
+[20:11:15.827] [DEBUG] ProxyHandler - ===============BEGIN TRANSACTION===============
+[20:11:15.833] [INFO ] CustomerServiceImpl - SERVICE:   START - create customer
+[20:11:15.834] [INFO ] CustomerDaoImpl - START: create customer
+[20:11:15.835] [INFO ] CustomerDaoImpl - END: create customer
+[20:11:15.835] [INFO ] CustomerServiceImpl - SERVICE:   END - create customer
+[20:11:15.836] [DEBUG] ProxyHandler - ===============COMMIT TRANSACTION===============
+[21:47:19.522] [INFO ] Reflections - Reflections took 132 ms to scan 1 urls, producing 3 keys and 5 values
+[21:47:19.576] [INFO ] ApplicationContext - Found 2 beans under package: com.ezechukwu
+[21:50:10.478] [INFO ] Reflections - Reflections took 133 ms to scan 1 urls, producing 3 keys and 5 values
+[21:50:10.540] [INFO ] ApplicationContext - Found 2 beans under package: com.ezechukwu
+[21:50:10.541] [INFO ] ApplicationContext - Instantiating a new bean for type: com.ezechukwu.service.CustomerService
+[21:50:10.546] [INFO ] ApplicationContext - Instantiating a new bean for type: com.ezechukwu.dao.CustomerDao
+[21:50:10.548] [INFO ] CustomerServiceImpl - SERVICE:   START - create customer
+[21:50:10.548] [INFO ] CustomerDaoImpl - START: create customer
+[21:50:10.549] [INFO ] CustomerDaoImpl - END: create customer
+[21:50:10.549] [INFO ] CustomerServiceImpl - SERVICE:   END - create customer
+[21:58:28.511] [INFO ] Reflections - Reflections took 107 ms to scan 1 urls, producing 3 keys and 5 values
+[21:58:28.559] [INFO ] ApplicationContext - Found 2 beans under package: com.ezechukwu
+[21:58:28.559] [INFO ] ApplicationContext - Instantiating a new bean for type: com.ezechukwu.service.CustomerService
+[21:58:28.562] [INFO ] ApplicationContext - Instantiating a new bean for type: com.ezechukwu.dao.CustomerDao
+[21:58:28.564] [INFO ] CustomerServiceImpl - SERVICE:   START - create customer
+[21:58:28.564] [INFO ] CustomerDaoImpl - START: create customer
+[21:58:28.564] [INFO ] CustomerDaoImpl - END: create customer
+[21:58:28.564] [INFO ] CustomerServiceImpl - SERVICE:   END - create customer
+[22:19:33.018] [INFO ] Reflections - Reflections took 106 ms to scan 1 urls, producing 3 keys and 5 values
+[22:19:33.102] [INFO ] ApplicationContext - Found 2 beans under package: com.ezechukwu
+[22:19:33.104] [INFO ] ApplicationContext - Instantiating a new bean for type: com.ezechukwu.service.CustomerService
+[22:19:33.108] [INFO ] ApplicationContext - Instantiating a new bean for type: com.ezechukwu.dao.CustomerDao
+[22:19:33.111] [INFO ] CustomerServiceImpl - SERVICE:   START - create customer
+[22:19:33.112] [INFO ] CustomerDaoImpl - START: create customer
+[22:19:33.112] [INFO ] CustomerDaoImpl - END: create customer
+[22:19:33.113] [INFO ] CustomerServiceImpl - SERVICE:   END - create customer
